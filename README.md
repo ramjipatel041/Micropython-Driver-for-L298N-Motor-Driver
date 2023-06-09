@@ -37,7 +37,7 @@ while True:
     time.sleep(5)         #run motor2 backward
  ```
 ### Example-2:
-```
+```python
  """This micropython program makes the motor1 and motor2
 move in forward and backward directions."""
 
@@ -67,7 +67,7 @@ while True:
     time.sleep(5)         #run motor2 backward
 ```   
 ### Example-3:
-```
+```python
 """This micropython program makes the motor1 
 move in forward and backward directions with
 increasing speed."""
@@ -94,7 +94,7 @@ while True:
         motor1.backward()
         time.sleep(0.1)
     motor1.stop()
-```   
+```python   
 ### Example-4:
 ```
 """This micropython program makes the motor1 
@@ -134,7 +134,7 @@ while True:
     motor1.stop()
  ```   
 ### Example-5:
-```
+```python
 ''' This is a micropython program to control the speed
 and direction of the motor using seraial communication'''
 
@@ -168,7 +168,7 @@ while True:
             uart.write(str(motor1.getDirection()))
  ```    
 ### Example-6:
-```
+```python
 ''' This is a micropython program to control the
 speed of motor1 using a potentiometer'''
 
