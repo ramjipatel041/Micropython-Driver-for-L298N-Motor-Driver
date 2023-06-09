@@ -15,6 +15,7 @@ This is a Micropython Driver for L298N motor driver module. This module reduces 
 11. isMoving()
 ## Example code for L298N_motor.py Micropython driver module
 ### Example-1:
+<
 """This micropython program makes the motor1 
 move in forward and backward directions."""
 
@@ -34,7 +35,7 @@ while True:
     time.sleep(5)         #wait for 5 seconds
     motor1.backward()     #run motor1 backward
     time.sleep(5)         #run motor2 backward
- 
+ >
 ### Example-2:
  """This micropython program makes the motor1 and motor2
 move in forward and backward directions."""
