@@ -15,7 +15,7 @@ This is a Micropython Driver for L298N motor driver module. This module reduces 
 11. isMoving()
 ## Example codes for L298N_motor.py Micropython driver module
 ### Example-1:
-``
+```
 """This micropython program makes the motor1 
 move in forward and backward directions."""
 
@@ -35,9 +35,9 @@ while True:
     time.sleep(5)         #wait for 5 seconds
     motor1.backward()     #run motor1 backward
     time.sleep(5)         #run motor2 backward
- ``
+ ```
 ### Example-2:
-``
+```
  """This micropython program makes the motor1 and motor2
 move in forward and backward directions."""
 
@@ -65,9 +65,9 @@ while True:
     motor1.backward()     #run motor1 backward
     motor2.backward()     #run motor1 backward
     time.sleep(5)         #run motor2 backward
-``    
+```   
 ### Example-3:
-``
+```
 """This micropython program makes the motor1 
 move in forward and backward directions with
 increasing speed."""
@@ -94,9 +94,9 @@ while True:
         motor1.backward()
         time.sleep(0.1)
     motor1.stop()
-``    
+```   
 ### Example-4:
-``
+```
 """This micropython program makes the motor1 
 move in forward and backward directions with
 increasing and and decreasing speed in both
@@ -132,9 +132,9 @@ while True:
         motor1.backward()
         time.sleep(0.1)
     motor1.stop()
- ``   
+ ```   
 ### Example-5:
-``
+```
 ''' This is a micropython program to control the speed
 and direction of the motor using seraial communication'''
 
@@ -166,9 +166,9 @@ while True:
             uart.write(str(motor1.getSpeed()))
         elif "DIRECTION" in data:
             uart.write(str(motor1.getDirection()))
- ``     
+ ```    
 ### Example-6:
-``
+```
 ''' This is a micropython program to control the
 speed of motor1 using a potentiometer'''
 
@@ -188,7 +188,7 @@ while True:
     motor1.setSpeed(int(reading))
     motor1.forward()
     time.sleep(0.1)
-``
+```
    
     
 
