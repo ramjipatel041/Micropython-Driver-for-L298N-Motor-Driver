@@ -1,4 +1,4 @@
-# Python-and-Micropython-Driver-for-L298N
+# Micropython Driver for L298N motor driver module
 This is a Micropython Driver for L298N motor driver module. This module reduces the programming complexity during using L298N module. You can now easily make your robots using L298N driver and Micropython.
 
 ## Builtin Functions
@@ -94,9 +94,9 @@ while True:
         motor1.backward()
         time.sleep(0.1)
     motor1.stop()
-```python   
+``` 
 ### Example-4:
-```
+```python
 """This micropython program makes the motor1 
 move in forward and backward directions with
 increasing and and decreasing speed in both
