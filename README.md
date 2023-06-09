@@ -15,7 +15,7 @@ This is a Micropython Driver for L298N motor driver module. This module reduces 
 11. isMoving()
 ## Example codes for L298N_motor.py Micropython driver module
 ### Example-1:
-```
+```python
 """This micropython program makes the motor1 
 move in forward and backward directions."""
 
